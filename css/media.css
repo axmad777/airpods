@@ -1,0 +1,158 @@
+@media(max-width:1100px){
+    
+   .section__katta-block .section__text {
+        font-size: 15px;
+        line-height: 18px;
+        text-align: justify;
+    }
+    .section__katta-block  .section__img{
+        width: 200px;
+        height:200px;
+    }
+   .section .cards{
+        row-gap: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        column-gap: 10px;
+    }
+    }
+    
+    @media(max-width:760px){
+       .header__content .header__link {
+            font-size: 15px;
+            line-height: 20px;
+        }
+       .airpods__center .airpods__title {
+            font-size: 65px;
+            line-height: 50px;
+            padding-bottom: 25px;
+        }
+        .airpods__center .airpods__button {
+            padding: 5px 15px;
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .section__katta-block   .section__text {
+            font-size: 15px;
+            line-height: 15px;
+            width: 300px;
+        }
+        
+        .section__katta-block  .section__img{
+            width: 100px;
+            height:100px;
+        }
+        .section__katta-block  .section__block {
+            padding-top: 15px;
+            column-gap: 15px;
+             display: flex;
+            flex-direction: column;
+            row-gap: 25px;
+        }
+        
+        
+        .cards .cards__title {
+            font-size: 15px;
+            line-height: 20px;
+            padding-bottom: 8px;
+        }
+        
+        .cards .cards__text {
+            padding: 10px 0 20px 0;
+            font-size: 12px;
+            line-height: 15px;
+        }
+        
+        .cards .cards__img {
+            align-items: center;
+        }
+        .cards .cards__button{
+            padding:5px 40px ;
+            font-size: 13px;
+            line-height: 15px;
+        }
+        
+      .button__header-block  .button__header-list{
+            display: none;
+        }
+    
+    }
+    
+    @media(max-width:576px){
+        .header__content .bar{
+            color: white;
+            opacity: 1;
+            font-size: 30px;
+        }
+        .header__content  .header__link{
+        display: none;
+        }
+        .header__content  .header__vector{
+            display: none;
+        }
+      .header  .header__content{
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+        }
+    
+        .section__katta-block .section__text {
+            font-size: 13px;
+            line-height: 13px;
+        }
+        .button__header-block  .button__header-img{
+            width: 60px;
+            height: 40px;
+        }
+        
+        .button__header-block  .visala{
+            column-gap: 5px;
+        }
+        .button__header-block   .visa__card{
+            width: 60px;
+            height: 40px;
+        }
+      
+    }
+    
+    @media(max-width:460px){
+        .airpods__center  .airpods__title {
+            font-size: 50px;
+            line-height: 50px;
+            padding-bottom: 25px;
+        }
+        .airpods__center  .airpods__button {
+            padding: 5px 15px;
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+    
+    @media(max-width:420px){
+        .airpods__center .airpods__title {
+            font-size: 40px;
+            line-height: 45px;
+            padding-bottom: 25px;
+        }
+        .airpods__center .airpods__button {
+            padding: 5px 15px;
+            font-size: 15px;
+            line-height: 20px;
+        }  
+        .button__header-block   .button__header-img{
+            width: 60px;
+            height: 40px;
+        }
+       .button__header .button__header-block{
+            column-gap: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .button__header-block  .visa__card{
+            width: 60px;
+            height: 40px;
+        }
+         
+    }
